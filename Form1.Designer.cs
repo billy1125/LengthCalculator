@@ -30,19 +30,19 @@ namespace LengthCalculator
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtCM = new System.Windows.Forms.TextBox();
+            this.txtM = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtKM = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtYard = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtFt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtIn = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btnAllClear = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtInfo = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -56,21 +56,21 @@ namespace LengthCalculator
             this.label1.TabIndex = 0;
             this.label1.Text = "公分";
             // 
-            // textBox1
+            // txtCM
             // 
-            this.textBox1.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textBox1.Location = new System.Drawing.Point(32, 135);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(65, 35);
-            this.textBox1.TabIndex = 1;
+            this.txtCM.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtCM.Location = new System.Drawing.Point(32, 135);
+            this.txtCM.Name = "txtCM";
+            this.txtCM.Size = new System.Drawing.Size(65, 35);
+            this.txtCM.TabIndex = 1;
             // 
-            // textBox2
+            // txtM
             // 
-            this.textBox2.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textBox2.Location = new System.Drawing.Point(138, 135);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(65, 35);
-            this.textBox2.TabIndex = 3;
+            this.txtM.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtM.Location = new System.Drawing.Point(138, 135);
+            this.txtM.Name = "txtM";
+            this.txtM.Size = new System.Drawing.Size(65, 35);
+            this.txtM.TabIndex = 3;
             // 
             // label2
             // 
@@ -82,13 +82,13 @@ namespace LengthCalculator
             this.label2.TabIndex = 2;
             this.label2.Text = "公尺";
             // 
-            // textBox3
+            // txtKM
             // 
-            this.textBox3.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textBox3.Location = new System.Drawing.Point(262, 135);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(65, 35);
-            this.textBox3.TabIndex = 5;
+            this.txtKM.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtKM.Location = new System.Drawing.Point(262, 135);
+            this.txtKM.Name = "txtKM";
+            this.txtKM.Size = new System.Drawing.Size(65, 35);
+            this.txtKM.TabIndex = 5;
             // 
             // label3
             // 
@@ -100,13 +100,13 @@ namespace LengthCalculator
             this.label3.TabIndex = 4;
             this.label3.Text = "公里";
             // 
-            // textBox4
+            // txtYard
             // 
-            this.textBox4.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textBox4.Location = new System.Drawing.Point(262, 246);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(65, 35);
-            this.textBox4.TabIndex = 11;
+            this.txtYard.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtYard.Location = new System.Drawing.Point(262, 246);
+            this.txtYard.Name = "txtYard";
+            this.txtYard.Size = new System.Drawing.Size(65, 35);
+            this.txtYard.TabIndex = 11;
             // 
             // label4
             // 
@@ -118,13 +118,13 @@ namespace LengthCalculator
             this.label4.TabIndex = 10;
             this.label4.Text = "碼";
             // 
-            // textBox5
+            // txtFt
             // 
-            this.textBox5.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textBox5.Location = new System.Drawing.Point(138, 246);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(65, 35);
-            this.textBox5.TabIndex = 9;
+            this.txtFt.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtFt.Location = new System.Drawing.Point(138, 246);
+            this.txtFt.Name = "txtFt";
+            this.txtFt.Size = new System.Drawing.Size(65, 35);
+            this.txtFt.TabIndex = 9;
             // 
             // label5
             // 
@@ -136,13 +136,13 @@ namespace LengthCalculator
             this.label5.TabIndex = 8;
             this.label5.Text = "英呎";
             // 
-            // textBox6
+            // txtIn
             // 
-            this.textBox6.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textBox6.Location = new System.Drawing.Point(32, 246);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(65, 35);
-            this.textBox6.TabIndex = 7;
+            this.txtIn.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtIn.Location = new System.Drawing.Point(32, 246);
+            this.txtIn.Name = "txtIn";
+            this.txtIn.Size = new System.Drawing.Size(65, 35);
+            this.txtIn.TabIndex = 7;
             // 
             // label6
             // 
@@ -163,13 +163,13 @@ namespace LengthCalculator
             this.btnAllClear.Text = "清除";
             this.btnAllClear.UseVisualStyleBackColor = true;
             // 
-            // textBox7
+            // txtInfo
             // 
-            this.textBox7.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textBox7.Location = new System.Drawing.Point(32, 347);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(353, 35);
-            this.textBox7.TabIndex = 14;
+            this.txtInfo.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtInfo.Location = new System.Drawing.Point(32, 347);
+            this.txtInfo.Name = "txtInfo";
+            this.txtInfo.Size = new System.Drawing.Size(353, 35);
+            this.txtInfo.TabIndex = 14;
             // 
             // label7
             // 
@@ -186,20 +186,20 @@ namespace LengthCalculator
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(419, 409);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtInfo);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnAllClear);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtYard);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtFt);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtIn);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtKM);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtM);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtCM);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -211,19 +211,19 @@ namespace LengthCalculator
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtCM;
+        private System.Windows.Forms.TextBox txtM;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtKM;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtYard;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtFt;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtIn;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnAllClear;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtInfo;
         private System.Windows.Forms.Label label7;
     }
 }
