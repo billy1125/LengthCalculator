@@ -61,8 +61,9 @@ namespace LengthCalculator
             this.txtCM.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtCM.Location = new System.Drawing.Point(32, 135);
             this.txtCM.Name = "txtCM";
-            this.txtCM.Size = new System.Drawing.Size(65, 35);
+            this.txtCM.Size = new System.Drawing.Size(91, 35);
             this.txtCM.TabIndex = 1;
+            this.txtCM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtCM_KeyUp);
             // 
             // txtM
             // 
