@@ -61,7 +61,7 @@ namespace LengthCalculator
             this.txtCM.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtCM.Location = new System.Drawing.Point(32, 135);
             this.txtCM.Name = "txtCM";
-            this.txtCM.Size = new System.Drawing.Size(91, 35);
+            this.txtCM.Size = new System.Drawing.Size(100, 35);
             this.txtCM.TabIndex = 1;
             this.txtCM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtCM_KeyUp);
             // 
@@ -70,8 +70,9 @@ namespace LengthCalculator
             this.txtM.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtM.Location = new System.Drawing.Point(138, 135);
             this.txtM.Name = "txtM";
-            this.txtM.Size = new System.Drawing.Size(65, 35);
+            this.txtM.Size = new System.Drawing.Size(118, 35);
             this.txtM.TabIndex = 3;
+            this.txtM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtM_KeyUp);
             // 
             // label2
             // 
@@ -88,8 +89,9 @@ namespace LengthCalculator
             this.txtKM.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtKM.Location = new System.Drawing.Point(262, 135);
             this.txtKM.Name = "txtKM";
-            this.txtKM.Size = new System.Drawing.Size(65, 35);
+            this.txtKM.Size = new System.Drawing.Size(123, 35);
             this.txtKM.TabIndex = 5;
+            this.txtKM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtKM_KeyUp);
             // 
             // label3
             // 
@@ -108,6 +110,7 @@ namespace LengthCalculator
             this.txtYard.Name = "txtYard";
             this.txtYard.Size = new System.Drawing.Size(65, 35);
             this.txtYard.TabIndex = 11;
+            this.txtYard.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtYard_KeyUp);
             // 
             // label4
             // 
@@ -126,6 +129,7 @@ namespace LengthCalculator
             this.txtFt.Name = "txtFt";
             this.txtFt.Size = new System.Drawing.Size(65, 35);
             this.txtFt.TabIndex = 9;
+            this.txtFt.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtFt_KeyUp);
             // 
             // label5
             // 
@@ -144,6 +148,7 @@ namespace LengthCalculator
             this.txtIn.Name = "txtIn";
             this.txtIn.Size = new System.Drawing.Size(65, 35);
             this.txtIn.TabIndex = 7;
+            this.txtIn.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtIn_KeyUp);
             // 
             // label6
             // 
