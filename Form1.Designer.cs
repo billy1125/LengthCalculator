@@ -74,7 +74,6 @@
             this.btnAllClear.TabIndex = 2;
             this.btnAllClear.Text = "清除";
             this.btnAllClear.UseVisualStyleBackColor = true;
-            this.btnAllClear.Click += new System.EventHandler(this.btnAllClear_Click);
             // 
             // label3
             // 
@@ -148,6 +147,7 @@
             this.txtKM.Name = "txtKM";
             this.txtKM.Size = new System.Drawing.Size(86, 29);
             this.txtKM.TabIndex = 10;
+            this.txtKM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtKM_KeyUp);
             // 
             // txtYard
             // 
@@ -155,6 +155,7 @@
             this.txtYard.Name = "txtYard";
             this.txtYard.Size = new System.Drawing.Size(86, 29);
             this.txtYard.TabIndex = 13;
+            this.txtYard.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtYard_KeyUp);
             // 
             // txtFt
             // 
@@ -162,6 +163,7 @@
             this.txtFt.Name = "txtFt";
             this.txtFt.Size = new System.Drawing.Size(86, 29);
             this.txtFt.TabIndex = 12;
+            this.txtFt.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtFt_KeyUp);
             // 
             // txtIn
             // 
@@ -169,6 +171,7 @@
             this.txtIn.Name = "txtIn";
             this.txtIn.Size = new System.Drawing.Size(86, 29);
             this.txtIn.TabIndex = 11;
+            this.txtIn.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtIn_KeyUp);
             // 
             // txtInfo
             // 
